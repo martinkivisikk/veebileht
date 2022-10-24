@@ -1,0 +1,12 @@
+.intro {
+    color: whitesmoke;
+    font-size: 24px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.intro ul {
+    font-size: 32px;
+    margin-top: 10px;
+}
