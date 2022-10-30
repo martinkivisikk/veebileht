@@ -4,6 +4,7 @@
 
 .column {
     flex: 50%;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -13,8 +14,8 @@
     padding: 15px;
     text-align: right;
     overflow: hidden;
-    height: 150px;
-    transition: all ease 0.2s;
+    height: 100px;
+    transition: all .2s ease-in-out;
     position: relative;
 }
 
@@ -42,30 +43,7 @@
     text-decoration: underline 1px;
 }
 
-.nav-right {
-    color: whitesmoke;
-    font-size: 48px;
-    text-decoration: none;
-    float: right;
-    margin-bottom: 10px;
-}
-
 body {
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.664285782672444) 0%, rgba(2,0,36,1) 18%, rgba(2,0,36,1) 100%, rgba(0,0,0,0.6614846622242647) 100%); 
+    background: rgb(0, 10, 20);
     font-family: Arial, Helvetica, sans-serif;
-}
-
-.content {
-    padding: 16px;
-}
-
-.sticky {
-    position:fixed;
-    top: 0;
-    width: 100%;
-}
-
-.sticky + .content {
-    padding-top: 60px;
 }
