@@ -11,6 +11,8 @@ img {
 iframe {
     border-radius: 15px;
     max-width: 100%;
+    width: 560px; 
+    height: 315px;
 }
 
 p {
@@ -21,10 +23,18 @@ p {
     padding-right: 10%;
 }
 
-#link {
+li {
+    color: whitesmoke;
+    font-size: 24px;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.links {
     color: #fff;
 }
-#link:hover {
+.links:hover {
     color: greenyellow;
     text-decoration: underline;
 }
@@ -53,5 +63,5 @@ summary {
     transition: all .2s ease-in-out;
 }
 .summaryNupp:hover {
-    scale: 1.1;
+    transform: scale(1.1);
 }
