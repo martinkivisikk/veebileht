@@ -11,24 +11,14 @@ img {
 iframe {
     border-radius: 15px;
     max-width: 100%;
-    width: 560px; 
+    width: 560px;
     height: 315px;
-}
-
-p {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-li {
-    text-align: justify;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .links {
     color: #fff;
 }
+
 .links:hover {
     color: greenyellow;
     text-decoration: underline;
@@ -58,6 +48,7 @@ summary {
 .summaryNupp {
     transition: all .2s ease-in-out;
 }
+
 .summaryNupp:hover {
     transform: scale(1.1);
 }
