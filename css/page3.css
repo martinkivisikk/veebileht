@@ -1,11 +1,29 @@
-h1, h2 {
+h1 {
     color: white;
+}
+h2 {
+    color: white;
+    font-size: 35px;
+    margin-left: 2cm;
+
 }
 
 p {
     color: white;
+    width: auto;
+    text-align: justify;
+    font-size: 24px;
 }
 
 li {
+    font-size: 24px;
     color: white;
+}
+
+iframe {
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px white;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
