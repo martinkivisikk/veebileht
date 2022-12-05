@@ -51,29 +51,3 @@ body {
 p, li, h2 {
     color:whitesmoke;
 }
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-@media only screen and (max-width: 600px) {
-    .row {
-        flex-direction: column;
-    }
-}
