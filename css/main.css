@@ -65,10 +65,15 @@ p {
     width: auto;
     text-align: justify;
     font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
 }
 
 h2 {
     font-size: 35px;
+    margin-left: 50px;
+    display: inline-flex;
 }
 
 li {
