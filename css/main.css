@@ -48,6 +48,29 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p, li, h2 {
+p, li, h1, h2 {
     color:whitesmoke;
+}
+
+a:link, a:visited {
+    color: whitesmoke;
+}
+
+a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+p {
+    width: auto;
+    text-align: justify;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+li {
+    font-size: 24px;
 }

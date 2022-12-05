@@ -1,10 +1,7 @@
 p {
-    font-size: 24px;
-    text-align: justify;
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 50px;
-    width: auto;
 }
 
 img {
@@ -17,12 +14,10 @@ img {
 }
 
 li  {
-    font-size: 24px;
     margin-left: 50px;
 }
 
 h2 {
-    font-size: 35px;
     margin-left: 50px;
     display: inline-flex;
 }

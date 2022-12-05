@@ -1,26 +1,5 @@
-h1 {
-    color: white;
-}
 h2 {
-    color: white;
-    font-size: 35px;
-    margin-left: 1cm;
-
-}
-
-p {
-    color: white;
-    width: auto;
-    text-align: justify;
-    font-size: 24px;
-    margin-left: 1cm;
-    text-align: justify;
-}
-
-li {
-    font-size: 24px;
-    color: white;
-    text-align: justify;
+    margin-left: 2cm;
 }
 
 iframe {
